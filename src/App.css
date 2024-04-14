@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#base-bg {
+    background-image: url(https://lumiere-a.akamaihd.net/v1/images/background-stars-desktop_v2_96b6d74a.jpeg?region=0%2C0%2C2048%2C1600);
+    background-position: center top;
+    background-repeat: repeat;
+    position: fixed;
+    top: 0 !important;
+    min-height: 100vh;
+    left: auto !important;
+}
+
+#base-bg,
+#secondary-bg {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.App {
+    text-align: center;
+}
+
+.App-main {
+    padding: 20px;
+}
+
+.App-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000;
+    padding: 20px 0;
+}
+
+.App-header h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+.App-header a {
+    color: #ffdd00;
+    text-decoration: none;
+    font-size: 1.5em;
+    margin-right: 20px;
+}
+
+.App-footer {
+    background-color: #000;
+    padding: 20px 0;
+}
+
+.App-footer p {
+    margin: 0;
+}
+
+.planet-list,
+.character-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.planet-card {
+    background-color: #333;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.planet-card h3 {
+    font-size: 1.5em;
+    margin-top: 0;
+}
+
+.planet-card p {
+    margin: 10px 0;
+}
+
+@media (max-width: 768px) {
+    .planet-list {
+        justify-content: center;
+    }
+
+    .planet-card {
+        width: 80%;
+    }
+}
+
+#space {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
