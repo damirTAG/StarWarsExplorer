@@ -20,7 +20,7 @@
 2. Перейдите в каталог проекта:
 
     ```bash
-    cd star-wars-universe-explorer
+    cd starwarsexplorer
     ```
 
 3. Установите зависимости:
