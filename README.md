@@ -14,7 +14,7 @@
 1. Клонирование репозитория:
 
     ```bash
-    git clone https://github.com/yourusername/star-wars-universe-explorer.git
+    git clone https://github.com/damirtag/starwarsexplorer.git
     ```
 
 2. Перейдите в каталог проекта:
